@@ -104,17 +104,46 @@
     height: 300px;
 }
 
-.trade{
-border: 1px solid gray;
-border-radius:5px ;
+.trade {
+    border: 1px solid gray;
+    border-radius: 5px;
 
-   
-  
+
+
 }
 
-.trade:hover{
+.trade:hover {
     letter-spacing: 1px;
     background: linear-gradient(90deg in oklab, #853A8C, #374991);
+}
+
+/* icons */
+.icons {
+    width: 50%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-one {
+    color: white;
+}
+
+.icons :hover {
+    color: blue;
+}
+
+.call {
+    display: flex;
+    text-decoration: none;
+    color: white;
+
+}
+
+.call:hover {
+
+    letter-spacing: 1px;
+
 }
 
 @media(max-width:768px) {

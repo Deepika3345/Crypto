@@ -41,7 +41,7 @@ const Home = () => {
         })
         if (searchedData && searchedData.length > 0) {
             console.log(searchedData)
-            
+
             navigate(`/learnmore/${searchedData[0].item.coin_id}`);
         }
         else (
@@ -51,22 +51,6 @@ const Home = () => {
 
 
     };
-
-
-    // useEffect(() => {
-
-       
-
-
-
-    // }, [searchOne])
-
-
-
-
-
-
-
 
 
     return (

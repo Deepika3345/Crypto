@@ -37,7 +37,7 @@ const Navbar = () => {
               </Link>
 
               <Link to={'/login'}>
-                <Button variant='outlined' sx={{ bgcolor: "#20182B", color: "white" }}>Log in</Button>
+                <Button variant='outlined' sx={{ bgcolor: "#20182B", color: "white", flexGrow: '1' }}>Log in</Button>
               </Link>
             </>
           ) : (
@@ -45,7 +45,7 @@ const Navbar = () => {
 
               <List className='list-items'>
 
-                <Link to='/coincontainer' style={{ textDecoration: "none", color: "gray" , marginRight:"15px"}} className='trade-main'>
+                <Link to='/coincontainer' style={{ textDecoration: "none", color: "gray", marginRight: "15px" }} className='trade-main'>
                   <ListItem className='trade'>Trending Coins </ListItem>
                 </Link>
 
@@ -65,7 +65,7 @@ const Navbar = () => {
                 {/* <Link to='/guide' style={{ textDecoration: "none", color: "gray" }}>
                   <ListItem> Guide </ListItem>
                 </Link> */}
-                <Link to='/contact' style={{ textDecoration: "none", color: "gray"  , marginRight:"15px"}}>
+                <Link to='/contact' style={{ textDecoration: "none", color: "gray", marginRight: "15px" }}>
                   <ListItem variant="outlined" className='trade'> Contact Us</ListItem>
 
                 </Link>
