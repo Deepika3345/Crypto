@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
 const CoinCard = ({ coin }) => {
+    console.log(coin)
 
     const { symbol, name, large, coin_id } = coin.item;
 

@@ -32,7 +32,7 @@ const CoinDetail = () => {
 
     // const dispatch = useDispatch()
     const itemDetail = coins.filter((coin) => coin.item.coin_id === Number(ID))[0]?.item
-    // console.log(itemDetail)
+    console.log(itemDetail)
 
     return (
         <>

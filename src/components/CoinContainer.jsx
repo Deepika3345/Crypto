@@ -31,7 +31,7 @@ const CoinContainer = () => {
         )
     }
 
-    if (coins.length === 0) {
+    if (coins?.length === 0) {
         return (
             <Typography variant='h3' align='center' sx={{ marginTop: "60px", color: "black" }}> NO Coins Yet</Typography>
         )

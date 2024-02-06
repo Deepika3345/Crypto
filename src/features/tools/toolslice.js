@@ -166,15 +166,6 @@ export const getCoin = createAsyncThunk("FETCH/COINS", async () => {
     }
 })
 
-// detail
-
-// export const getDetail = createAsyncThunk("DETAIL/COINS", async (coinId) => {
-//     try {
-//         return await detail(coinId)
-//     } catch (error) {
-//         console.log(error)
-//     }
-// })
 
 
 // search
